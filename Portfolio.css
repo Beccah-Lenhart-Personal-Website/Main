@@ -36,6 +36,23 @@ body{
     margin-right: auto;
 }
 
+div.scroll {
+    width: 1200px;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  div.scroll img {
+    padding: 0px;
+  }
+
+  img:hover {
+    opacity: 50%;
+  }
+
 footer{
         background-color: white;
         background-size: cover;
