@@ -13,15 +13,15 @@ h1{
 
 a:link {
     color: rgb(49, 99, 194);
-  }
+}
   
-  a:visited {
+a:visited {
     color: cornflowerblue;
-  }
+}
   
-  a:hover {
+a:hover {
     color: rgb(195, 216, 255);
-  }
+}
 
 body{
     background-color: cornflowerblue;
