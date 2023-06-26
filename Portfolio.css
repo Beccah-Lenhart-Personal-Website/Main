@@ -1,0 +1,65 @@
+header{
+    background-color: white;
+    background-size: cover;
+    padding: 7px;
+    margin: -10px;
+}
+
+h1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+a:link {
+    color: rgb(49, 99, 194);
+  }
+  
+  a:visited {
+    color: cornflowerblue;
+  }
+  
+  a:hover {
+    color: rgb(195, 216, 255);
+  }
+
+body{
+    background-color: cornflowerblue;
+}
+
+.mainContent{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.scroll {
+    width: 1200px;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  div.scroll img {
+    padding: 0px;
+  }
+
+  img:hover {
+    opacity: 50%;
+  }
+
+footer{
+        background-color: white;
+        background-size: cover;
+        text-align: center;
+        padding: 7px;
+        margin: -10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+}
