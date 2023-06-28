@@ -5,6 +5,33 @@ header{
     margin: -10px;
 }
 
+hr {
+  clear:both;
+  margin: -1px -20px 20px;
+  border: 0;
+  height: 20px;
+  background-image: linear-gradient(to right, white, transparent, white), 
+                    linear-gradient(transparent, rgb(100, 148, 237) 150%);
+  background-image: -moz-linear-gradient(to right, white, transparent, white), 
+                    -webkit-linear-gradient(transparent, rgb(100, 148, 237) 150%);
+  background-image: -ms-linear-gradient(to right, white, transparent, white), 
+                    -webkit-linear-gradient(transparent, rgb(100, 148, 237) 150%);  
+ }
+
+ .two{
+  clear:both;
+  margin: 55px -20px 20px;
+  border: 0;
+  height: 20px;
+  transform: rotate(180deg) scaleX(-1);
+  background-image: linear-gradient(to leftt, white, transparent, white), 
+                    linear-gradient(transparent, rgb(100, 148, 237) 200%);
+  background-image: -moz-linear-gradient(to left, white, transparent, white), 
+                    -webkit-linear-gradient(transparent, rgb(100, 148, 237) 200%);
+  background-image: -ms-linear-gradient(to left, white, transparent, white), 
+                    -webkit-linear-gradient(transparent, rgb(100, 148, 237) 200%);  
+ }
+
 h1{
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
