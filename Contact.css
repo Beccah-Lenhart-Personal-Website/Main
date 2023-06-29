@@ -24,6 +24,12 @@ h1{
   font-weight: lighter;
 }
 
+.verticalHello{
+  writing-mode: vertical-rl;
+  text-orientation:sideways-right;
+  font-size: 60px;
+}
+
 a:link {
   color: rgb(49, 99, 194);
 }

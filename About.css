@@ -45,6 +45,10 @@ h1{
     font-weight: lighter;
 }
 
+.filler{
+  color: rgb(139, 176, 244);
+}
+
 a:link {
     color: rgb(49, 99, 194);
   }
