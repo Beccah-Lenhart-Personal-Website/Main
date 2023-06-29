@@ -24,6 +24,12 @@ h1{
     font-weight: lighter;
 }
 
+h3{
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
 a:link {
     color: rgb(49, 99, 194);
   }
@@ -50,21 +56,65 @@ body{
 }
 
 div.scroll {
-    width: 1200px;
+    width: 1300px;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 100px;
+    margin-left: 50px; 
   }
   
-  div.scroll img {
+div.scroll img {
     padding: 0px;
   }
 
-  img:hover {
+  /* img:hover {
     opacity: 50%;
+  } */
+
+div{
+    display:inline-flex;
   }
+  
+  .img-overlay {
+    position: relative;
+    width:100%;
+  }
+  
+  .img-overlay-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,.5);
+  }
+  
+  .img-overlay:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: left;
+  }
+
 
 footer{
         background-color: white;

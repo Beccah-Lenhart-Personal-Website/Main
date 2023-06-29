@@ -49,13 +49,32 @@ body{
     margin-right: auto;
 }
 
-footer{
-        background-color: white;
-        background-size: cover;
-        text-align: center;
-        padding: 2px;
-        margin: -10px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
+section {
+  border: 0px solid pink;
+  /*min-height: 80vh;*/
+  text-align: left;
+  }
+  
+  main{
+      display: flex;
+      width: 100vw;
+  }
+  
+  .center-section{
+      width: 70%;
+  }
+  
+  .left-section, .right-section{
+      width: 15%;
+  }
+
+  footer{
+    background-color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 2px !important;
+    margin: -10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

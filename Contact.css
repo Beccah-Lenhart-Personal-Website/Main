@@ -1,9 +1,8 @@
 header{
-    background-color: white;
-    background-size: cover;
-    padding: 7px;
-    margin: -10px;
-    
+  background-color: white;
+  background-size: cover;
+  padding: 7px;
+  margin: -10px;
 }
 
 hr {
@@ -19,85 +18,64 @@ hr {
                     -webkit-linear-gradient(transparent, rgb(100, 148, 237) 150%);  
  }
 
- /* .two {
-  clear:both;
-  margin: 55px -20px 20px;
-  border: 0;
-  height: 20px;
-  transform: rotate(180deg) scaleX(-1);
-  background-image: linear-gradient(to leftt, white, transparent, white), 
-                    linear-gradient(transparent, rgb(100, 148, 237) 200%);
-  background-image: -moz-linear-gradient(to left, white, transparent, white), 
-                    -webkit-linear-gradient(transparent, rgb(100, 148, 237) 200%);
-  background-image: -ms-linear-gradient(to left, white, transparent, white), 
-                    -webkit-linear-gradient(transparent, rgb(100, 148, 237) 200%);  
- } */
-
-.verticalHello{
-  writing-mode: vertical-rl;
-  text-orientation:sideways-right;
-  font-size: 60px;
-}
-
 h1{
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
 }
 
 a:link {
-    color: rgb(49, 99, 194);
-  }
-  
-  a:visited {
-    color: rgb(139, 176, 244);
-  }
-  
-  a:hover {
-    color: rgb(195, 216, 255);
-  }
+  color: rgb(49, 99, 194);
+}
+
+a:visited {
+  color: cornflowerblue;
+}
+
+a:hover {
+  color: rgb(195, 216, 255);
+}
 
 body{
-    background-color: cornflowerblue;
-
+  background-color: cornflowerblue;
 }
 
 .mainContent{
-    font-size: 17px;
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    margin-left: auto;
-    margin-right: auto;
-    overflow:auto;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  margin-left: auto;
+  margin-right: auto;
+  overflow:auto;
 }
 
 section {
-  border: 0px solid pink;
-  /*min-height: 80vh;*/
-  text-align: left;
-  }
-  
-  main{
-      display: flex;
-      width: 100vw;
-  }
-  
-  .center-section{
-      width: 70%;
-  }
-  
-  .left-section, .right-section{
-      width: 15%;
-  }
+border: 0px solid pink;
+/*min-height: 80vh;*/
+text-align: left;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+}
+
+.center-section{
+    width: 70%;
+}
+
+.left-section, .right-section{
+    width: 15%;
+}
 
 footer{
-        background-color: white;
-        background-size: cover;
-        text-align: center;
-        padding: 2px;
-        margin: -10px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
+      background-color: white;
+      background-size: cover;
+      text-align: center;
+      padding: 2px;
+      margin: -10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
 }
